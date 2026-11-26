@@ -1,0 +1,212 @@
+{
+  "about": [
+    "The built-in categories. A new user gets the 'personal' or the 'business' set of their kind; 'itemized' is added on demand (itemized taxation). At every start each user gets the ones of their sets they have never had, once (one they deleted doesn't come back).",
+    "Add: a new, unique key (never a used one). Remove: \"retired\": true instead of deleting it, so the users who have it still see its name translated. Never change a key: a user's category keeps the key it was made with. Keys the code uses: businessIncome, businessExpense.",
+    "type: income / expense; color: one of the app's category colors; icon: a key of categoryIcons; treatment: a TaxTreatment (itemized taxation), none if left out; names: en (required), hu."
+  ],
+  "categories": [
+    {
+      "key": "salary",
+      "set": "personal",
+      "type": "income",
+      "color": "#2E7D32",
+      "icon": "work",
+      "names": {"en": "Salary", "hu": "Fizetés"}
+    },
+    {
+      "key": "otherIncome",
+      "set": "personal",
+      "type": "income",
+      "color": "#546E7A",
+      "icon": "redeem",
+      "names": {"en": "Other income", "hu": "Egyéb bevétel"}
+    },
+    {
+      "key": "food",
+      "set": "personal",
+      "type": "expense",
+      "color": "#F4511E",
+      "icon": "shopping_cart",
+      "names": {"en": "Food", "hu": "Élelmiszer"}
+    },
+    {
+      "key": "housing",
+      "set": "personal",
+      "type": "expense",
+      "color": "#6D4C41",
+      "icon": "home",
+      "names": {"en": "Housing", "hu": "Lakhatás"}
+    },
+    {
+      "key": "utilities",
+      "set": "personal",
+      "type": "expense",
+      "color": "#FFB300",
+      "icon": "bolt",
+      "names": {"en": "Utilities", "hu": "Rezsi"}
+    },
+    {
+      "key": "transport",
+      "set": "personal",
+      "type": "expense",
+      "color": "#1E88E5",
+      "icon": "directions_bus",
+      "names": {"en": "Transport", "hu": "Közlekedés"}
+    },
+    {
+      "key": "health",
+      "set": "personal",
+      "type": "expense",
+      "color": "#E53935",
+      "icon": "local_hospital",
+      "names": {"en": "Health", "hu": "Egészség"}
+    },
+    {
+      "key": "entertainment",
+      "set": "personal",
+      "type": "expense",
+      "color": "#8E24AA",
+      "icon": "theaters",
+      "names": {"en": "Entertainment", "hu": "Szórakozás"}
+    },
+    {
+      "key": "taxes",
+      "set": "personal",
+      "type": "expense",
+      "color": "#D81B60",
+      "icon": "account_balance",
+      "names": {"en": "Taxes and contributions", "hu": "Adók és járulékok"}
+    },
+    {
+      "key": "otherExpense",
+      "set": "personal",
+      "type": "expense",
+      "color": "#546E7A",
+      "icon": "more_horiz",
+      "names": {"en": "Other expense", "hu": "Egyéb kiadás"}
+    },
+    {
+      "key": "businessIncome",
+      "set": "business",
+      "type": "income",
+      "color": "#00897B",
+      "icon": "storefront",
+      "names": {"en": "Business income", "hu": "Vállalkozói bevétel"}
+    },
+    {
+      "key": "businessExpense",
+      "set": "business",
+      "type": "expense",
+      "color": "#3949AB",
+      "icon": "business_center",
+      "names": {"en": "Business expense", "hu": "Vállalkozói kiadás"}
+    },
+    {
+      "key": "businessTaxes",
+      "set": "business",
+      "type": "expense",
+      "color": "#D81B60",
+      "icon": "account_balance",
+      "names": {"en": "Taxes and contributions", "hu": "Adók és járulékok"}
+    },
+    {
+      "key": "bizRevenue",
+      "set": "itemized",
+      "type": "income",
+      "color": "#2E7D32",
+      "icon": "trending_up",
+      "treatment": "revenue",
+      "names": {"en": "Taxable revenue", "hu": "Adóalapba számító bevétel"}
+    },
+    {
+      "key": "bizNonTaxableIncome",
+      "set": "itemized",
+      "type": "income",
+      "color": "#546E7A",
+      "icon": "login",
+      "treatment": "nonTaxableIncome",
+      "names": {"en": "Non-taxable income", "hu": "Adóalapba nem számító bevétel"}
+    },
+    {
+      "key": "bizWithdrawal",
+      "set": "itemized",
+      "type": "expense",
+      "color": "#3949AB",
+      "icon": "payments",
+      "treatment": "withdrawal",
+      "names": {"en": "Withdrawal (gross)", "hu": "Vállalkozói kivét (bruttó)"}
+    },
+    {
+      "key": "bizSzocho",
+      "set": "itemized",
+      "type": "expense",
+      "color": "#D81B60",
+      "icon": "health_and_safety",
+      "treatment": "szocho",
+      "names": {"en": "SZOCHO", "hu": "SZOCHO"}
+    },
+    {
+      "key": "bizOther",
+      "set": "itemized",
+      "type": "expense",
+      "color": "#F4511E",
+      "icon": "receipt_long",
+      "treatment": "otherCost",
+      "names": {"en": "Other cost", "hu": "Egyéb kiadás"}
+    },
+    {
+      "key": "bizMaterial",
+      "set": "itemized",
+      "type": "expense",
+      "color": "#6D4C41",
+      "icon": "inventory",
+      "treatment": "materialCost",
+      "names": {"en": "Material cost", "hu": "Anyagköltség"}
+    },
+    {
+      "key": "bizBank",
+      "set": "itemized",
+      "type": "expense",
+      "color": "#1E88E5",
+      "icon": "credit_card",
+      "treatment": "bankCost",
+      "names": {"en": "Bank charges", "hu": "Bankköltség"}
+    },
+    {
+      "key": "bizAccounting",
+      "set": "itemized",
+      "type": "expense",
+      "color": "#00897B",
+      "icon": "calculate",
+      "treatment": "accountingCost",
+      "names": {"en": "Accounting", "hu": "Könyvelés"}
+    },
+    {
+      "key": "bizIt",
+      "set": "itemized",
+      "type": "expense",
+      "color": "#8E24AA",
+      "icon": "computer",
+      "treatment": "itCost",
+      "names": {"en": "IT costs", "hu": "Informatikai kiadások"}
+    },
+    {
+      "key": "bizNonDeductible",
+      "set": "itemized",
+      "type": "expense",
+      "color": "#546E7A",
+      "icon": "block",
+      "treatment": "nonDeductible",
+      "names": {"en": "Non-deductible spending", "hu": "Adóalapba nem számító kiadás"}
+    },
+    {
+      "key": "bizVat",
+      "set": "itemized",
+      "type": "expense",
+      "color": "#FFB300",
+      "icon": "percent",
+      "treatment": "vat",
+      "names": {"en": "VAT", "hu": "ÁFA"}
+    }
+  ]
+}

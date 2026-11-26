@@ -1,0 +1,8 @@
+# The analyzer and lints, see https://dart.dev/tools/analysis
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - linux/**
+    - windows/**
+include: package:flutter_lints/flutter.yaml

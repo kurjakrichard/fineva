@@ -1,0 +1,12 @@
+<!-- The "F." of logo.svg alone, on a transparent background: splash screens
+     and the Android adaptive icon. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <g transform="translate(-12 -4)">
+    <g fill="#FFFFFF">
+      <rect x="300" y="232" width="128" height="560" rx="64"/>
+      <rect x="300" y="232" width="424" height="128" rx="64"/>
+      <rect x="300" y="460" width="300" height="128" rx="64"/>
+    </g>
+    <circle cx="676" cy="728" r="72" fill="#FFC107"/>
+  </g>
+</svg>

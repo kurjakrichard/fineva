@@ -1,0 +1,1009 @@
+{
+  "@@locale": "en",
+  "appTitle": "Fineva",
+  "tagline": "Your finances in order",
+  "accounts": "Accounts",
+  "categories": "Categories",
+  "settings": "Settings",
+  "entries": "Entries",
+  "balance": "Balance",
+  "income": "Income",
+  "expense": "Expense",
+  "addEntry": "New entry",
+  "editEntry": "Edit entry",
+  "amount": "Amount",
+  "amountInvalid": "Enter an amount greater than zero",
+  "account": "Account",
+  "category": "Category",
+  "noCategory": "No category",
+  "date": "Date",
+  "note": "Note",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "saveError": "Saving failed",
+  "deleteError": "Deleting failed",
+  "deleteEntryConfirm": "Delete this entry?",
+  "noEntries": "No entries yet. Add one with the + button.",
+  "noAccounts": "Add an account first to record income and expenses.",
+  "addAccount": "New account",
+  "editAccount": "Edit account",
+  "name": "Name",
+  "nameRequired": "Name is required",
+  "accountType": "Type",
+  "accountTypeCash": "Cash",
+  "accountTypeBank": "Bank account",
+  "accountTypeCard": "Card",
+  "accountTypeSavings": "Savings",
+  "currency": "Currency",
+  "currencyName": "{code, select, HUF{Hungarian forint} EUR{Euro} USD{US dollar} GBP{Pound sterling} CHF{Swiss franc} CZK{Czech koruna} PLN{Polish złoty} RON{Romanian leu} SEK{Swedish krona} NOK{Norwegian krone} DKK{Danish krone} ISK{Icelandic króna} TRY{Turkish lira} JPY{Japanese yen} CNY{Chinese yuan} HKD{Hong Kong dollar} KRW{South Korean won} SGD{Singapore dollar} INR{Indian rupee} IDR{Indonesian rupiah} MYR{Malaysian ringgit} PHP{Philippine peso} THB{Thai baht} ILS{Israeli new shekel} AUD{Australian dollar} NZD{New Zealand dollar} CAD{Canadian dollar} MXN{Mexican peso} BRL{Brazilian real} ZAR{South African rand} other{{code}}}",
+  "@currencyName": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "initialBalance": "Opening balance",
+  "initialBalanceInvalid": "Enter a number",
+  "deleteAccountConfirm": "{count, plural, =0{Delete the account {name}?} =1{Delete the account {name} and its entry?} other{Delete the account {name} and its {count} entries?}}",
+  "@deleteAccountConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "addCategory": "New category",
+  "editCategory": "Edit category",
+  "deleteCategoryConfirm": "Delete this category? Its entries stay, without a category.",
+  "color": "Color",
+  "language": "Language",
+  "theme": "Theme",
+  "themeSystem": "Device setting",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "errorMessage": "Something went wrong: {message}",
+  "@errorMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "loadError": "The data couldn't be loaded: {message}",
+  "@loadError": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "welcomeTitle": "Welcome to Fineva!",
+  "welcomeText": "Let's set it up in a few steps.",
+  "usageTitle": "What will you use Fineva for?",
+  "userTypePersonal": "Personal finances",
+  "userTypePersonalText": "Your own income, expenses and accounts",
+  "userTypeSoleProprietor": "Sole proprietor finances",
+  "userTypeSoleProprietorText": "Your business's income and expenses, set up for your taxation",
+  "businessTitle": "Your business",
+  "taxRegime": "Taxation",
+  "taxRegimeItemized": "Entrepreneurial personal income tax",
+  "taxRegimeItemizedText": "Taxed on your actual, documented costs",
+  "taxRegimeFlatRate": "Flat-rate tax",
+  "taxRegimeFlatRateText": "Your revenue minus a fixed cost ratio is taxed",
+  "taxRegimeKata": "KATA",
+  "taxRegimeKataText": "Fixed monthly tax, for sales to private persons",
+  "vat": "VAT",
+  "vatRegistered": "VAT registered",
+  "vatRegisteredText": "You charge VAT and file VAT returns",
+  "vatExempt": "VAT exempt",
+  "vatExemptText": "Your yearly revenue is under the VAT exemption limit",
+  "euReporting": "EU reporting",
+  "euReportingText": "EU VAT number, recapitulative statement of intra-EU transactions",
+  "back": "Back",
+  "next": "Next",
+  "getStarted": "Get started",
+  "profile": "Profile",
+  "dashboard": "Dashboard",
+  "latestEntries": "Latest entries",
+  "allEntries": "All entries",
+  "detailsTitle": "Your details",
+  "address": "Address",
+  "addressHint": "1234 Budapest, Main street 1.",
+  "taxId": "Tax identification number",
+  "taxIdHelper": "10 digits starting with 8, on your tax card",
+  "taxIdInvalid": "Not a valid tax identification number",
+  "taxNumber": "Tax number",
+  "taxNumberInvalid": "Not a valid tax number (12345678-1-12)",
+  "statistics": "Statistics",
+  "newUser": "New user",
+  "newUserText": "Set up Fineva for someone else, with their own accounts and entries",
+  "deleteUser": "Delete user",
+  "deleteUserConfirm": "Delete {name} with all their accounts, entries and categories?",
+  "@deleteUserConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "switchUser": "Switch user",
+  "unnamedUser": "Unnamed user",
+  "whoUses": "Who uses Fineva now?",
+  "welcomeBackTitle": "Welcome back!",
+  "welcomeBackText": "Choose the user, then check the details. Skip goes straight on.",
+  "skip": "Skip",
+  "onboardingAtStart": "Onboarding at every start",
+  "onboardingAtStartText": "Choose the user and check the details when Fineva starts",
+  "data": "Data",
+  "backup": "Back up data",
+  "backupText": "Save every user's data into a file",
+  "backupSaved": "Backup saved",
+  "backupError": "The backup couldn't be saved",
+  "restore": "Restore data",
+  "restoreText": "Replace all data with a backup",
+  "restoreConfirm": "Restoring replaces all current data, of every user, with the backup. Go on?",
+  "restored": "Data restored",
+  "restoreInvalid": "This file is not a Fineva backup",
+  "restoreNewer": "This backup was made by a newer Fineva. Update the app first.",
+  "restoreError": "The data couldn't be restored",
+  "summary": "Summary",
+  "cashFlow": "Cash flow",
+  "netResult": "Net",
+  "savingsRate": "Savings rate",
+  "closingBalance": "Closing balance",
+  "changeInPeriod": "Change in the period:",
+  "categoryTotal": "Total: {amount}",
+  "@categoryTotal": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "allTime": "All time",
+  "period": "Period",
+  "choosePeriod": "Choose period",
+  "periodWeek": "Week",
+  "periodMonth": "Month",
+  "periodQuarter": "Quarter",
+  "periodYear": "Year",
+  "periodCustom": "Custom",
+  "quarterOfYear": "Q{quarter} {year}",
+  "@quarterOfYear": {
+    "placeholders": {
+      "quarter": {
+        "type": "int"
+      },
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "quarterOfYearShort": "Q{quarter} {year}",
+  "@quarterOfYearShort": {
+    "placeholders": {
+      "quarter": {
+        "type": "int"
+      },
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "noEntriesInPeriod": "No entries in this period.",
+  "allEntriesCount": "All ({count})",
+  "@allEntriesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "previousPeriod": "Previous",
+  "nextPeriod": "Next",
+  "euVatNumber": "EU VAT number",
+  "euVatNumberHelper": "HU and the first 8 digits of your tax number",
+  "euVatNumberRequired": "EU reporting needs your EU VAT number",
+  "euVatNumberInvalid": "Not a valid EU VAT number (HU12345678)",
+  "euVatNumberMismatch": "It doesn't match your tax number: HU and its first 8 digits",
+  "taxNumberRequired": "A sole proprietor needs a Hungarian tax number",
+  "taxNumberHelper": "Your tax number: 12345678-1-12",
+  "costRatio": "Cost ratio",
+  "costRatioGeneral": "General",
+  "costRatioListed": "Activities listed in the law",
+  "costRatioRetail": "Retail trade",
+  "mainOccupation": "Main occupation",
+  "mainOccupationText": "No employment of at least 36 hours a week beside it: the minimum contributions apply",
+  "vatPeriod": "VAT return",
+  "vatPeriodMonthly": "Monthly",
+  "vatPeriodQuarterly": "Quarterly",
+  "vatPeriodYearly": "Yearly",
+  "business": "Business",
+  "businessOnlyText": "Only for sole proprietors.",
+  "businessIncompleteText": "Your tax number is missing. Complete your profile to keep the business records.",
+  "invoices": "Invoices",
+  "previousYear": "Previous year",
+  "nextYear": "Next year",
+  "addInvoice": "New invoice",
+  "editInvoice": "Edit invoice",
+  "deleteInvoiceConfirm": "Delete this invoice?",
+  "amountRequired": "Enter an amount",
+  "invoiceOutgoing": "Outgoing (revenue)",
+  "invoiceIncoming": "Incoming (cost)",
+  "invoiceNumber": "Invoice number",
+  "invoiceNumberRequired": "Enter the invoice number",
+  "paymentMethod": "Payment",
+  "paymentTransfer": "Transfer",
+  "paymentCash": "Cash",
+  "paymentCard": "Card",
+  "invoiceDescription": "Description",
+  "partner": "Partner",
+  "partnerDomestic": "Domestic",
+  "partnerEu": "EU",
+  "partnerThirdCountry": "Third country",
+  "partnerName": "Partner name",
+  "foreignTaxNumber": "Tax number",
+  "partnerEuVatNumberInvalid": "Country code and number, e.g. DE123456789",
+  "dates": "Dates",
+  "issueDate": "Issued",
+  "fulfillmentDate": "Fulfilled",
+  "dueDate": "Due",
+  "exchangeRate": "Exchange rate",
+  "exchangeRateHelper": "HUF for 1 {code}",
+  "@exchangeRateHelper": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeRateInvalid": "Enter the exchange rate",
+  "vatCode": "VAT",
+  "netAmount": "Net",
+  "vatAmount": "VAT",
+  "grossAmount": "Gross",
+  "reverseChargeText": "Reverse charge: you pay the {rate}% VAT, and deduct it if you are VAT registered.",
+  "@reverseChargeText": {
+    "placeholders": {
+      "rate": {
+        "type": "int"
+      }
+    }
+  },
+  "paid": "Paid",
+  "paidRevenueText": "Flat-rate revenue counts when it is paid",
+  "paidCostText": "When you paid it",
+  "paidDate": "Paid on",
+  "paidAmount": "Paid amount",
+  "vatCode27": "27% VAT",
+  "vatCode18": "18% VAT",
+  "vatCode5": "5% VAT",
+  "vatCode0": "0% VAT",
+  "vatCodeAam": "AAM – subjective VAT exemption",
+  "vatCodeTam": "TAM – exempt activity",
+  "vatCodeAtk": "ATK – outside the scope of VAT",
+  "vatCodeFad": "FAD – domestic reverse charge",
+  "vatCodeKbaet": "KBAET – exempt intra-EU supply of goods",
+  "vatCodeEufad37": "EUFAD37 – service to an EU business (reverse charge)",
+  "vatCodeEufade": "EUFADE – other reverse charge supply in the EU",
+  "vatCodeEue": "EUE – supply in another member state",
+  "vatCodeEuGoods": "Intra-EU acquisition of goods (reverse charge)",
+  "vatCodeEuServices": "Service from the EU (reverse charge)",
+  "vatCodeEam": "EAM – export, exempt",
+  "vatCodeHo": "HO – supply in a third country",
+  "vatCodeNam": "NAM – other international exemption",
+  "vatCodeImportServices": "Service from a third country (reverse charge)",
+  "vatCodeImportGoods": "Import of goods (reverse charge)",
+  "incomeRecord": "Income record {year}",
+  "@incomeRecord": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "costRecord": "Cost record {year}",
+  "@costRecord": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "grossTotal": "Gross total",
+  "openTotal": "Open",
+  "flatRateRevenue": "Flat-rate revenue (paid, net)",
+  "kataRevenue": "KATA revenue",
+  "kataTaxText": "KATA tax: {amount} a month",
+  "@kataTaxText": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "noInvoices": "No invoices in this year.",
+  "openAmount": "{amount} open",
+  "@openAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "flatRateYear": "Flat-rate taxation {year}",
+  "@flatRateYear": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "flatRateOverLimit": "Over the revenue limit: flat-rate taxation ends.",
+  "taxFreeRevenue": "Tax-free revenue",
+  "taxFreeRevenueHint": "{income} tax-free income at a {ratio}% cost ratio",
+  "@taxFreeRevenueHint": {
+    "placeholders": {
+      "income": {
+        "type": "String"
+      },
+      "ratio": {
+        "type": "int"
+      }
+    }
+  },
+  "yearlyTaxes": "Taxes of the year",
+  "taxYearUnknown": "The amounts of {year} are not known yet: those of {known} are used.",
+  "@taxYearUnknown": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "known": {
+        "type": "int"
+      }
+    }
+  },
+  "quarterName": "Q{quarter}",
+  "@quarterName": {
+    "placeholders": {
+      "quarter": {
+        "type": "int"
+      }
+    }
+  },
+  "deadline": "Due {date}",
+  "@deadline": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "revenue": "Revenue",
+  "flatRateIncome": "Income",
+  "taxableIncome": "Taxable income",
+  "taxFreeIncomeHint": "Tax free: {amount}",
+  "@taxFreeIncomeHint": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "szja": "Personal income tax (15%)",
+  "tbContribution": "Social security contribution (18.5%)",
+  "szocho": "Social contribution tax (13%)",
+  "localTax": "Local business tax",
+  "chamberFee": "Chamber fee",
+  "total": "Total",
+  "baseHint": "Base: {amount}",
+  "@baseHint": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "toTransfer": "To transfer",
+  "taxCode": "Tax code {code}",
+  "@taxCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "municipalityAccount": "to the municipality's account",
+  "taxKindSzja": "NAV personal income tax",
+  "taxKindSzocho": "NAV social contribution tax",
+  "taxKindTb": "NAV social security contribution",
+  "taxKindLocalTax": "Local business tax",
+  "taxKindChamberFee": "Hungarian Chamber of Commerce and Industry",
+  "copyAccount": "Copy the account number",
+  "copied": "Copied: {text}",
+  "@copied": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "vatPayable": "Payable VAT",
+  "vatDeductible": "Deductible VAT",
+  "reverseCharge": "Reverse charge",
+  "vatTotalRounded": "Total (in thousands)",
+  "vatExemptReverseChargeText": "As VAT exempt you pay the reverse charge VAT without deduction.",
+  "vatToPay": "Balance: to pay",
+  "vatToReclaim": "Balance: to reclaim or carry forward",
+  "salesWithoutVat": "Sales without VAT",
+  "vatDateRuleText": "By VAT date: an outgoing invoice counts on its payment date if paid within {days} days of the fulfillment, otherwise on the fulfillment + {days} days; an incoming one on its fulfillment date.",
+  "@vatDateRuleText": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "vatDateLine": "VAT date: {date} (the payment date within {days} days of the fulfillment, otherwise the fulfillment + {days} days)",
+  "@vatDateLine": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "taxTreatment": "Business tax",
+  "taxTreatmentNone": "Not a business item",
+  "taxTreatmentRevenue": "Taxable revenue",
+  "taxTreatmentNonTaxableIncome": "Non-taxable income",
+  "taxTreatmentWithdrawal": "Cost: withdrawal (gross)",
+  "taxTreatmentSzocho": "Cost: SZOCHO",
+  "taxTreatmentOtherCost": "Cost: other",
+  "taxTreatmentMaterialCost": "Cost: material",
+  "taxTreatmentBankCost": "Cost: bank charges",
+  "taxTreatmentAccountingCost": "Cost: accounting",
+  "taxTreatmentItCost": "Cost: IT",
+  "taxTreatmentNonDeductible": "Non-deductible spending",
+  "taxTreatmentVat": "VAT (not a cost)",
+  "entryExchangeRateHelper": "{main} / 1 {code} on the day",
+  "@entryExchangeRateHelper": {
+    "placeholders": {
+      "main": {
+        "type": "String"
+      },
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "itemizedTab": "Itemized tax",
+  "assets": "Assets",
+  "itemizedSetupTitle": "Business categories",
+  "itemizedSetupText": "The itemized tax is calculated from the entries of the categories with a business tax treatment. Add the categories of the cash-flow ledger (taxable revenue, withdrawal, costs, …), or set the treatment of your own categories.",
+  "addBusinessCategories": "Add the business categories",
+  "missingExchangeRates": "{count, plural, =1{1 entry of a foreign currency account has no exchange rate: it is left out.} other{{count} entries of foreign currency accounts have no exchange rate: they are left out.}}",
+  "@missingExchangeRates": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "itemizedYear": "Itemized tax {year}",
+  "@itemizedYear": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "taxableRevenue": "Taxable revenue",
+  "costs": "Costs",
+  "depreciationHint": "Depreciation included: {amount}",
+  "@depreciationHint": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "taxBase": "Tax base",
+  "vszja": "Entrepreneurial income tax (9%)",
+  "dividendBase": "Entrepreneurial dividend base",
+  "dividendSzja": "SZJA on the dividend base (15%)",
+  "szochoOnDividend": "SZOCHO on the dividend base, after the year",
+  "szochoCapHint": "Up to the cap of {cap}, {paid} paid on the withdrawal",
+  "@szochoCapHint": {
+    "placeholders": {
+      "cap": {
+        "type": "String"
+      },
+      "paid": {
+        "type": "String"
+      }
+    }
+  },
+  "byTreatment": "By business category",
+  "depreciation": "Depreciation",
+  "lossCarried": "Loss of the quarter before",
+  "depreciationOfYear": "Depreciation this year: {amount}",
+  "@depreciationOfYear": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "addAsset": "New asset",
+  "editAsset": "Edit asset",
+  "noAssets": "No assets yet.",
+  "assetRemaining": "{amount} left",
+  "@assetRemaining": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteAssetConfirm": "Delete this asset?",
+  "purchaseDate": "Put into use",
+  "supplier": "Supplier",
+  "assetCost": "Cost",
+  "depreciationRate": "Yearly depreciation rate",
+  "depreciationRateHelper": "E.g. 33 for computers, 14.5 for other machines; 100 writes off a small asset at once",
+  "depreciationRateInvalid": "A rate from 0 to 100",
+  "vatPeriodBalance": "Balance of the period",
+  "vatCarriedIn": "Carried forward from before",
+  "searchEntries": "Note, category, account, amount",
+  "clearSearch": "Clear the search",
+  "filterType": "Type",
+  "filterAll": "All",
+  "clearFilters": "Clear filters",
+  "noMatchingEntries": "No entries match the search and filters.",
+  "entryCount": "{count, plural, =1{1 entry} other{{count} entries}}",
+  "@entryCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "icon": "Icon",
+  "balanceAt": "Balance on {date}",
+  "@balanceAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "search": "Search",
+  "filters": "Filters",
+  "removeFilter": "Remove the filter",
+  "done": "Done",
+  "userTypeFixed": "A user's kind can't change after it is created.",
+  "bookingText": "The payment is booked as an entry on the account, so it is in the entries and the balances.",
+  "bookedOn": "Booked on",
+  "notBooked": "Not booked",
+  "paidExchangeRate": "Exchange rate of the payment",
+  "paidExchangeRateHelper": "Empty: the invoice's rate",
+  "openInvoices": "Open invoices",
+  "receivables": "Owed to you",
+  "payables": "You owe",
+  "exchangeRates": "Exchange rates",
+  "exchangeRatesText": "Main currency, source, rates typed in",
+  "updateRates": "Download the rates now",
+  "mainCurrency": "Main currency",
+  "mainCurrencyText": "The dashboard and the statistics show everything in it. It can't be changed later.",
+  "mainCurrencySoleProprietor": "Always the forint for a sole proprietor: the taxes are in forints.",
+  "rateSource": "Source of the rates",
+  "rateSourceMnb": "MNB",
+  "rateSourceEcb": "ECB",
+  "rateSourceManual": "Manual",
+  "rateSourceText": "MNB: the Magyar Nemzeti Bank's official rates. ECB: the European Central Bank's reference rates. Manual: only the rates typed in. A rate typed in always goes before a downloaded one of the same day.",
+  "ratesAtStart": "Download at every start",
+  "ratesAtStartText": "The missing rates, if there is a network",
+  "ratesDownloading": "Downloading the rates…",
+  "ratesDownloadFailed": "The download failed: {error}",
+  "@ratesDownloadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "ratesDownloaded": "Downloaded at {time}: {count, plural, =0{no new rate} =1{1 rate} other{{count} rates}}",
+  "@ratesDownloaded": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "currentRates": "Today's rates",
+  "noForeignCurrency": "Every account and invoice is in {code}.",
+  "@noForeignCurrency": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "missingRates": "No exchange rate: {codes}",
+  "@missingRates": {
+    "placeholders": {
+      "codes": {
+        "type": "String"
+      }
+    }
+  },
+  "manualRates": "Rates typed in",
+  "noManualRates": "None yet.",
+  "newManualRate": "Manual rate",
+  "manualRateValue": "Rate: 1 {code} = ? {main}",
+  "@manualRateValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      },
+      "main": {
+        "type": "String"
+      }
+    }
+  },
+  "manualRateInvalid": "Give a positive number",
+  "accountNotFound": "This account no longer exists.",
+  "noAccountEntries": "No entries on this account yet. Add one with the + button.",
+  "dayBalance": "Balance",
+  "entry": "Entry",
+  "edit": "Edit",
+  "discardChanges": "Discard the changes",
+  "paysInvoice": "The payment of",
+  "bookedEntryText": "The payment of an invoice: it is changed on the invoice.",
+  "close": "Close",
+  "openingBalanceHelper": "It becomes the account's opening entry; later it is changed or deleted there.",
+  "openingDate": "Opening date",
+  "accountHasEntries": "{count, plural, =1{It has an entry (the opening one counts too): only an account without entries can be deleted.} other{It has {count} entries (the opening one counts too): only an account without entries can be deleted.}}",
+  "@accountHasEntries": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "openingEntry": "Opening balance",
+  "newOpeningEntry": "Give the opening balance",
+  "openingAmountInvalid": "Give an amount other than 0 (negative if overdrawn)",
+  "mainCurrencyFixed": "Chosen when the user was made; it can't be changed.",
+  "rateManual": "typed in",
+  "noDownloadedRate": "no downloaded rate",
+  "useDownloadedRate": "Back to the downloaded rate",
+  "revaluation": "Revaluation difference",
+  "openingEntries": "Opening entries",
+  "transfer": "Transfer",
+  "newTransfer": "New transfer",
+  "editTransfer": "Edit transfer",
+  "transferFrom": "From",
+  "transferTo": "To",
+  "transferReceived": "Received",
+  "transferSameAccount": "Choose another account",
+  "transferRateMade": "1 {code} = {rate}: made from the two amounts",
+  "transferWorth": "Worth",
+  "deleteTransferConfirm": "Delete this transfer (both its sides)?",
+  "transferText": "Money moved between two of your accounts: no income or expense, the same worth on both sides.",
+  "@transferRateMade": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      },
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "transferNotFound": "This transfer no longer exists.",
+  "transferToAccount": "To {name}",
+  "transferFromAccount": "From {name}",
+  "@transferToAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@transferFromAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "switchUserConfirm": "Switch to {name}?",
+  "switchUserAction": "Switch",
+  "@switchUserConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "balanceAfterEntry": "Balance after it",
+  "sort": "Order",
+  "sortNewest": "The newest first",
+  "sortOldest": "The oldest first",
+  "sortLargest": "The largest amount first",
+  "sortSmallest": "The smallest amount first",
+  "accountDescription": "Description",
+  "bankAccountNumber": "Account number or IBAN",
+  "bankAccountNumberHelper": "Optional: 12345678-12345678-12345678 or HU42 1177 …",
+  "bankAccountNumberInvalid": "Not a valid account number or IBAN",
+  "swiftCode": "SWIFT / BIC",
+  "swiftCodeInvalid": "8 or 11 letters and digits, e.g. OTPVHUHB",
+  "accountClosed": "Account closed",
+  "accountClosedText": "Its entries stay, no new ones can go on it",
+  "closedDate": "Closed on",
+  "closeAccountBalance": "Its balance is {balance} on that day: only a 0 balance can be closed (move the rest first).",
+  "closeAccountLaterEntries": "{count, plural, =1{It has an entry after that day.} other{It has {count} entries after that day.}}",
+  "closedOn": "Closed on {date}",
+  "closedAccounts": "Closed accounts",
+  "@closeAccountBalance": {
+    "placeholders": {
+      "balance": {
+        "type": "String"
+      }
+    }
+  },
+  "@closeAccountLaterEntries": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@closedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "previousPeriodValue": "previous: {amount}",
+  "@previousPeriodValue": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "outgoingInvoices": "Outgoing invoices",
+  "revenueRecord": "Revenue record",
+  "outgoingInvoicesYear": "Outgoing invoices {year}",
+  "@outgoingInvoicesYear": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "incomingInvoicesYear": "Incoming invoices {year}",
+  "@incomingInvoicesYear": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "revenueRecordText": "A revenue counts on the day it is received, with the paid net amount of the outgoing invoice in forints. An invoice gets here when it is paid.",
+  "revenueReceived": "Revenue received",
+  "noRevenue": "No revenue received in this year.",
+  "cumulativeAmount": "Cumulative {amount}",
+  "@cumulativeAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "nextTaxPayment": "Next tax payment",
+  "latestInvoices": "Latest invoices",
+  "revenueOfYear": "Revenue {year}",
+  "@revenueOfYear": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "rateSourceOwnBank": "Own bank",
+  "rateSourceReported": "I chose it and reported it to NAV",
+  "rateSourceBusinessText": "On an invoice in another currency the rate of your own credit institution is typed in (the default). The MNB's or the ECB's rate can be used only if you chose it and reported it to NAV. The choice is for the whole year: its rates are downloaded from 1 January.",
+  "rateSourceNotReported": "Not reported: your own bank's rate is typed in.",
+  "rateDayFulfillment": "fulfillment",
+  "rateDayIssue": "issue",
+  "invoiceRateHelper": "HUF for 1 {code} · {source}, {date} ({day})",
+  "@invoiceRateHelper": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      },
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "noOfficialRate": "No {source} rate of {date} yet",
+  "@noOfficialRate": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "downloadingRates": "Downloading the rates…",
+  "rateDownloadFailed": "The download failed. Try again, or check the network.",
+  "payments": "Payments",
+  "addPayment": "Payment",
+  "noPayments": "Not paid yet.",
+  "paidOfGross": "Paid {paid} of {gross}",
+  "@paidOfGross": {
+    "placeholders": {
+      "paid": {
+        "type": "String"
+      },
+      "gross": {
+        "type": "String"
+      }
+    }
+  },
+  "wholeAmount": "the whole amount",
+  "paymentAtMost": "At most {amount}",
+  "@paymentAtMost": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentsTooMuch": "The payments add up to more than the invoice.",
+  "deletePaymentConfirm": "Delete this payment?",
+  "openInvoice": "Open the invoice",
+  "addRevenue": "New revenue",
+  "chooseInvoiceText": "Record what came in on the bank account or in the till: choose its invoice, or record a new one.",
+  "noOpenInvoices": "No open invoices.",
+  "paymentInvoice": "Invoice",
+  "chooseInvoice": "Which invoice was paid?",
+  "reportMadeOn": "Made on {date}",
+  "@reportMadeOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "reportRecordNumber": "No.",
+  "reportDocument": "Document no.",
+  "reportReceived": "Received on",
+  "reportForeignAmount": "Amount in currency",
+  "reportRevenue": "Revenue (HUF)",
+  "reportCumulative": "Cumulative (HUF)",
+  "reportRevenueLimit": "Revenue limit {year}: {amount}",
+  "@reportRevenueLimit": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "reportRateNote": "A revenue in another currency counts at the rate of its invoice: of its fulfillment, or of its issue if that was earlier.",
+  "reportFileName": "revenue-record-{year}",
+  "@reportFileName": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "sendReport": "Send or save",
+  "sendAs": "Send as {format}",
+  "@sendAs": {
+    "placeholders": {
+      "format": {
+        "type": "String"
+      }
+    }
+  },
+  "saveAs": "Save as {format}",
+  "@saveAs": {
+    "placeholders": {
+      "format": {
+        "type": "String"
+      }
+    }
+  },
+  "fileSaved": "Saved.",
+  "reportError": "The file couldn't be made.",
+  "reportReturnMonth": "Month of the return",
+  "cumulativeRevenue": "Revenue so far this year",
+  "taxesSoFar": "Taxes so far this year",
+  "flatRateSummary": "Year summary",
+  "taxesOfYear": "Taxes of the year",
+  "quarters": "Quarters",
+  "flatRateQuarterTitle": "Flat-rate tax {year} – Q{quarter}",
+  "@flatRateQuarterTitle": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "quarter": {
+        "type": "int"
+      }
+    }
+  },
+  "flatRateSummaryTitle": "Flat-rate tax {year} – year summary",
+  "@flatRateSummaryTitle": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "flatRateQuarterFile": "flat-rate-tax-{year}-q{quarter}",
+  "@flatRateQuarterFile": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "quarter": {
+        "type": "int"
+      }
+    }
+  },
+  "flatRateSummaryFile": "flat-rate-tax-{year}-summary",
+  "@flatRateSummaryFile": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "reportItem": "Item",
+  "reportBase": "Base (HUF)",
+  "reportAmount": "Amount (HUF)",
+  "reportPayee": "Payee",
+  "reportTaxCode": "Tax code",
+  "reportAccount": "Account number",
+  "taxFreeIncome": "Tax-free income",
+  "deadlineLabel": "Deadline",
+  "flatRateCost": "Costs",
+  "costRatioHint": "{ratio}% cost ratio",
+  "@costRatioHint": {"placeholders": {"ratio": {"type": "int"}}},
+  "taxFreePart": "Tax-free part",
+  "taxFreePartHint": "Half the minimum wage of the year: {amount}",
+  "@taxFreePartHint": {"placeholders": {"amount": {"type": "String"}}},
+  "taxFreeRevenueNote": "No tax up to a revenue of {amount} (with this cost ratio).",
+  "@taxFreeRevenueNote": {"placeholders": {"amount": {"type": "String"}}}
+}

@@ -1,0 +1,19 @@
+<!-- Fineva app icon: a white "F." on a teal rounded square. The source of
+     every logo PNG: after editing, run tool/render_logo.sh -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1FA38C"/>
+      <stop offset="1" stop-color="#0E5A4E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
+  <g transform="translate(-12 -4)">
+    <g fill="#FFFFFF">
+      <rect x="300" y="232" width="128" height="560" rx="64"/>
+      <rect x="300" y="232" width="424" height="128" rx="64"/>
+      <rect x="300" y="460" width="300" height="128" rx="64"/>
+    </g>
+    <circle cx="676" cy="728" r="72" fill="#FFC107"/>
+  </g>
+</svg>

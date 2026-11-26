@@ -1,0 +1,84 @@
+name: fineva
+description: "Fineva - personal and sole proprietor finance records."
+publish_to: 'none'
+
+# Raise the build number after + for every store upload.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  equatable: ^2.0.5
+  file_picker: ^13.4.1 # backup and restore
+  fl_chart: ^1.3.1 # statistics
+  flutter_riverpod: ^3.0.0
+  go_router: ^17.2.3
+  intl: any # version pinned by flutter_localizations
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  shared_preferences: ^2.5.5
+  sqflite_common_ffi: ^2.3.3
+  sqlite3_flutter_libs: ^0.5.16
+  flutter_native_splash: ^2.4.8 # Android: keeps the splash until the data is loaded
+  # The records exported: PDF, XLSX (a zip of XML), sent with the share sheet.
+  pdf: ^3.13.1
+  archive: ^4.7.1
+  share_plus: ^13.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # test/: loads the system's sqlite3 (see test/test_database.dart)
+  sqlite3: ^2.1.0
+  flutter_launcher_icons: ^0.14.4 # app icons, see tool/render_logo.sh
+  xml: ^7.1.0
+
+flutter:
+  # Generates lib/l10n/app_localizations*.dart from the .arb files.
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/logo/splash.png
+    # The built-in categories (BuiltInCategories).
+    - assets/categories.json
+    # The exported PDFs' font (Roboto, Apache 2.0: Hungarian letters).
+    - assets/fonts/Roboto-Regular.ttf
+    - assets/fonts/Roboto-Bold.ttf
+
+# The logo's source is assets/logo/*.svg. After editing it, run
+# tool/render_logo.sh: it renders the PNGs and runs both generators below.
+
+# App icons (dart run flutter_launcher_icons)
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/logo/app_icon.png
+  adaptive_icon_background: assets/logo/icon_background.png
+  adaptive_icon_foreground: assets/logo/mark_padded.png
+  adaptive_icon_monochrome: assets/logo/mark_padded.png
+  min_sdk_android: 21
+  windows:
+    generate: true
+    image_path: assets/logo/app_icon.png
+    icon_size: 256
+
+# Android splash screen (dart run flutter_native_splash:create). Windows and
+# Linux show SplashPage instead.
+flutter_native_splash:
+  android: true
+  ios: false
+  web: false
+  color: "#167868"
+  image: assets/logo/splash.png
+  # Android 12+ shows the image inside a circle (2/3 of it), so it gets the
+  # padded mark.
+  android_12:
+    color: "#167868"
+    image: assets/logo/mark_padded.png
+    icon_background_color: "#167868"

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The MNB's exchange rate web service only answers on http. Every other
+     address must use https. -->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">www.mnb.hu</domain>
+    </domain-config>
+</network-security-config>
